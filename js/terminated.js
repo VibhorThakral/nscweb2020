@@ -20,7 +20,7 @@ checkKey = (e) => {
     e.preventDefault();
     if(resetKeyInput.value === key) {
         localStorage.setItem('focus', 'true');
-        window.location.assign('/index.html');
+        window.location.assign('https://vibhorthakral.github.io/nscweb2020/index.html');
     } else {
         console.log("Incorrect Key");
     }

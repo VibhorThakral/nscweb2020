@@ -31,6 +31,6 @@ checkKey = (e) => {
     if(secretKeyInput.value === key) {
         displayScoreList.classList.toggle('displayList');
     } else {
-        window.location.assign('/');
+        window.location.assign('index.html');
     }
 }

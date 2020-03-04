@@ -20,7 +20,7 @@ checkKey = (e) => {
     e.preventDefault();
     if(resetKeyInput.value === key) {
         localStorage.setItem('focus', 'true');
-        window.location.assign('/');
+        window.location.assign('index.html');
     } else {
         console.log("Incorrect Key");
     }

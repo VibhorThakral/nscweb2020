@@ -112,8 +112,8 @@ function checkPageFocus() {
 }
   
 window.onload = function () {
-    var timerDisplay = 60 * 0.5,
-        display = document.querySelector('#time');
+    var timerDisplay = 60 * 0.5;
+    display = document.querySelector('#time');
     startTimer(timerDisplay, display);
     setInterval(checkPageFocus, 300);
 };

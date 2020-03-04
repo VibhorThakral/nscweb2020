@@ -38,7 +38,7 @@ getNewQuestion = () => {
 
     if(availableQuestions.length === 0 || questionCounter >= MAX_QUESTIONS) {
         localStorage.setItem('mostRecentScore', score);
-        return window.location.assign('end.html');
+        return window.location.assign('/end.html');
     }
 
     questionCounter++;
@@ -107,7 +107,7 @@ function startTimer(duration, display) {
 function checkPageFocus() {
     if (!document.hasFocus()) {
       localStorage.setItem('focus', "false");  
-      window.location.assign('terminated.html');
+      window.location.assign('/terminated.html');
     }
 }
   

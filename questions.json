@@ -1,26 +1,26 @@
 [
     {
-      "question": "Inside which HTML element do we put the JavaScript??",
-      "choice1": "<script>",
-      "choice2": "<javascript>",
-      "choice3": "<js>",
-      "choice4": "<scripting>",
-      "answer": 1
-    },
-    {
-      "question": "What is the correct syntax for referring to an external script called 'xxx.js'?",
-      "choice1": "<script href='xxx.js'>",
-      "choice2": "<script name='xxx.js'>",
-      "choice3": "<script src='xxx.js'>",
-      "choice4": "<script file='xxx.js'>",
+      "question": "<script type='text/javascript'> \n a = 8 + '8'; \n document.write(a); \n </script>",
+      "choice1": "16",
+      "choice2": "Compilation Error",
+      "choice3": "88",
+      "choice4": "run time error",
       "answer": 3
     },
     {
-      "question": " How do you write 'Hello World' in an alert box?",
-      "choice1": "msgBox('Hello World');",
-      "choice2": "alertBox('Hello World');",
-      "choice3": "msg('Hello World');",
-      "choice4": "alert('Hello World');",
-      "answer": 4
+      "question": "Which of the following selector selects an element that has no children??",
+      "choice1": ":empty",
+      "choice2": ":nochild",
+      "choice3": ":inheritance",
+      "choice4": ":no-child",
+      "answer": 1
+    },
+    {
+      "question": "Which of the following is not a reserved word in JavaScript?",
+      "choice1": "interface",
+      "choice2": "throws",
+      "choice3": "program",
+      "choice4": "short",
+      "answer": 3
     }
 ]

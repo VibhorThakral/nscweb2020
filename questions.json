@@ -22,5 +22,149 @@
       "choice3": "program",
       "choice4": "short",
       "answer": 3
+    },
+    {
+      "question": "Cookies were originally designed for ________?",
+      "choice1": "Client-side programming",
+      "choice2": "Server-side programming",
+      "choice3": "Both Client-side & Server-side programming",
+      "choice4": "Web programming",
+      "answer": 2
+    },
+    {
+      "question": "The attribute of <form> tag",
+      "choice1": "Method",
+      "choice2": "Action",
+      "choice3": "Both (a) & (b)",
+      "choice4": "None of these",
+      "answer": 3
+    },
+    {
+      "question": "HTML is a subset of ",
+      "choice1": "SGMT",
+      "choice2": "SGML",
+      "choice3": "SGMD",
+      "choice4": "None of these",
+      "answer": 2
+    },
+    {
+      "question": "Which is used to define special state of an element",
+      "choice1": "pseudo-tag",
+      "choice2": "pseudo-element",
+      "choice3": "pseudo-id",
+      "choice4": "pseudo-class",
+      "answer": 4
+    },
+    {
+      "question": "How can you open a link in its own unique new window?",
+      "choice1": "Target = ';_New_Window'",
+      "choice2": "Target = 'New'",
+      "choice3": "Target = '_BLANK'",
+      "choice4": "Target = '_NEW'",
+      "answer": 3
+    },
+    {
+      "question": "In HTML, what does a <textarea> tag do?",
+      "choice1": "Creates a paragraph",
+      "choice2": "aligns text",
+      "choice3": "renders a box that you can type in",
+      "choice4": "Defines the borders of a web page",
+      "answer": 3
+    },
+    {
+      "question": "VLINK means",
+      "choice1": "Vertical Link",
+      "choice2": "Visited Link",
+      "choice3": "Violet Link",
+      "choice4": "None of the above",
+      "answer": 2
+    },
+    {
+      "question": "The input type='range' is similar to number type displays a ____ on the page.",
+      "choice1": "Slider Control",
+      "choice2": "Multiply Addresses",
+      "choice3": "Date",
+      "choice4": "Telephone Number",
+      "answer": 1
+    },
+    {
+      "question": "Users can play the audio in older browsers using the _____ tag",
+      "choice1": "<video>",
+      "choice2": "<audio>",
+      "choice3": "<embed>",
+      "choice4": "<play>",
+      "answer": 3
+    },
+    {
+      "question": "What classes allow the users to apply different style to the elements such as buttons, hyperlinks and so on.",
+      "choice1": "Type Selector",
+      "choice2": "Psuedo",
+      "choice3": "pesedo",
+      "choice4": "none of these",
+      "answer": 2
+    },
+    {
+      "question": "Which of the following property is used to underline, overline, and strikethrough text?",
+      "choice1": "text-style",
+      "choice2": "text-align",
+      "choice3": "text-decortation",
+      "choice4": "text-transform",
+      "answer": 3
+    },
+    {
+      "question": "Which of the following selector selects all paragraph elements whose lang attribute contains the word 'fr'?",
+      "choice1": "p[lang]",
+      "choice2": "p[lang='fr']",
+      "choice3": "p[lang~='fr']",
+      "choice4": "p[lang|='fr']",
+      "answer": 3
+    },
+    {
+      "question": "How can you open a link in a new browser window?",
+      "choice1": "<a href='url' target='new'>",
+      "choice2": "<a href='url' target='_blank'>",
+      "choice3": "<a href='url' .new>",
+      "choice4": "<a href='url' target='open'>",
+      "answer": 2
+    },
+    {
+      "question": "Which was the first browser to support JavaScript?",
+      "choice1": "Mozilla Firefox",
+      "choice2": "Netscape",
+      "choice3": "Google Chrome",
+      "choice4": "Internet Explorer",
+      "answer": 2
+    },
+    {
+      "question": "What will be the output of the following Javascript code? \n <p id='demo'></p> \n <script> \n var numbers = [45,4,9,16,25]; \n var ans = numbers.reduce(myFunction); \n document.getElementById('demo').innerHTML = sum; \n function myFunction(total, value, index, array) { return total + value; } \n </script>",
+      "choice1": "100",
+      "choice2": "99",
+      "choice3": "0",
+      "choice4": "error",
+      "answer": 2
+    },
+    {
+      "question": "What piece of code is missing when making a text shadow? \n #basicTextShadow { text-shadow: 1px 1px 3px; }",
+      "choice1": "the color",
+      "choice2": "the element",
+      "choice3": "the id name",
+      "choice4": "the text shadow height",
+      "answer": 1
+    },
+    {
+      "question": "What will be the possible output of the following javascript code? \n var a = [1,2,3,4,5]; \n a.slice(0,3);",
+      "choice1": "[1,2,3]",
+      "choice2": "[4,5]",
+      "choice3": "[1,2,3,4]",
+      "choice4": "[1,2,3,4,5]",
+      "answer": 1
+    },
+    {
+      "question": "What is the purpose of exec() in the following code \n var pattern = /Java/g; \n var text = 'Javascript is more fun than Java!'; \n var result; \n while((result = pattern.exec(text)) != null) \n { \n alert('Matched ' + result[0] + ' at position ' + result.index + ' next search begins at ' + pattern.lastIndex);; \n }",
+      "choice1": "Returns the same kind of array whether or not the regular expression has the global g flag",
+      "choice2": "Returns different arrays in the different turns of iterations",
+      "choice3": "Return a sub part of the array",
+      "choice4": "Returns a null value",
+      "answer": 1
     }
 ]

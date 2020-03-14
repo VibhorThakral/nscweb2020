@@ -25,7 +25,7 @@ fetch("questions.json").then(res => {
 //CONSTANTS
 const CORRECT_SCORE = 4;
 const INCORRECT_SCORE = -1;
-const MAX_QUESTIONS = 21;
+const MAX_QUESTIONS = 30;
 
 startQuiz = () => {
     questionCounter = 0;
